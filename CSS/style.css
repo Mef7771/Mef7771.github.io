@@ -52,7 +52,7 @@
     height: 90px;
     object-fit: cover; /* Подгоняет изображение без искажений */
     border-radius: 100px;
-    margin-top: 30px;
+    margin-top: 60px;
 
     display: block;
     
@@ -68,6 +68,7 @@
     color: rgb(0, 0, 0);
     margin-left: 3px;
     font-size: 14px;
+    margin:10px;
     
 
 }
