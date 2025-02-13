@@ -1,0 +1,108 @@
+.message-wrapper {
+    display: flex;
+    align-items: flex-start; /* Выравниваем элементы */
+    margin: 10px 0;
+    width: 250px;
+}
+
+.message-user {
+    display: flex;
+   /* Выровнять содержимое по правому краю */
+    width: 250px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+
+
+.avatar-container {
+
+    margin-right: 10px; /* Отступ от сообщения */
+    display: flex;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+
+    object-fit: cover; /* Обрезает картинку по кругу, сохраняя пропорции */
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-time {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.message {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.message-user-text{
+    background: #e5ebf5;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+
+.file-item {
+    display: flex;
+    justify-content: flex-end; /* Прижимаем элемент к правому краю */
+    margin: 10px 0;
+}
+
+
+.file-image{
+    max-width: 250px;      /* Ограничиваем ширину до 200px */
+    max-height: 250px;     /* Ограничиваем высоту до 200px */
+    object-fit: cover;     /* Обеспечивает, чтобы изображение заполнило пространство, не искажаясь */
+    width: 100%;           /* Устанавливаем ширину изображения, чтобы оно заполнило контейнер */
+    height: auto;     
+    
+}
+
+.file-video{
+    max-width: 250px;      /* Ограничиваем ширину до 200px */
+    max-height: 250px;     /* Ограничиваем высоту до 200px */
+    object-fit: cover;     /* Обеспечивает, чтобы изображение заполнило пространство, не искажаясь */
+    width: 100%;           /* Устанавливаем ширину изображения, чтобы оно заполнило контейнер */
+    height: auto;
+}
+.file-audio{
+    max-width: 250px; 
+    height: 50px;
+}
+
+.zip-fail{
+    max-width: 250px; 
+    height: 50px;
+}
+
+.file-label {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px; /* Для подписи снизу */
+    
+}
+.file-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center; /* Центрируем элементы */
+    text-align: center;
+    margin-bottom: 20px; /* Отступ между файлами */
+    margin-left: auto; /* Отодвигает контейнер в правую часть */
+    margin-right: 0;
+}
