@@ -171,7 +171,7 @@ function Main() {
         } else if (fileType === 'application/zip' || fileName.endsWith('.zip') || fileName.endsWith('.rar')) {
             // Если это ZIP или RAR-архив
             const img = document.createElement('img');
-            img.src = '/images/zip.png'; // Укажите путь к изображению
+            img.src = 'https://project12188225.tilda.ws/test/images/zip.png'; // Укажите путь к изображению
             img.classList.add("zip-fail");
             img.alt = 'Скачать архив';
             img.style.cursor = 'pointer';
