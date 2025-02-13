@@ -1,5 +1,5 @@
 .ContainerWidget{
-    width: 405px;
+    width: 400px;
     height: 670px;
     background-color:  rgb(236, 233, 233);
     border-radius: 10px;
@@ -40,7 +40,7 @@
     align-items: center; /* Центрируем по горизонтали */
     justify-content: center; /* Центрируем по вертикали */
   /* Отступ между картинкой и текстом */
-    width: 50%; 
+  
     margin-left: 20px;
     margin-top: 0px;
     
