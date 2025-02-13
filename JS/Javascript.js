@@ -19,7 +19,7 @@ function AddMessageUser(text) {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
 
-function addMessage(text, avatarUrl = "/Images/75pan.jpg") {
+function addMessage(text, avatarUrl = "https:///Mef7771.github.io/Images/75pan.jpg") {
     const messageWrapper = document.createElement("div");
     messageWrapper.classList.add("message-wrapper");
 
