@@ -1,3 +1,9 @@
+div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,code,img,b,u,i,center,table,tr,th,td,video {
+    margin: 10;
+    padding: 0;
+    border: 0
+}
+
 .ContainerWidget{
     width: 400px;
     height: 670px;
