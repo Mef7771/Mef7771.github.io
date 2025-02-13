@@ -58,7 +58,7 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,code,img,b,u,i,center,table,tr,th,
     height: 90px;
     object-fit: cover; /* Подгоняет изображение без искажений */
     border-radius: 100px;
-    margin-top: 60px;
+    margin-top: 10px;
 
     display: block;
     
